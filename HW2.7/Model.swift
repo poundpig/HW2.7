@@ -20,6 +20,6 @@ class DataManager {
 extension Person {
     static func getContacts() -> [Person] {
         return [
-            Person(person: person.fullName)]
+            Person(person: person.self)]
     }
 }
